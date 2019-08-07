@@ -8,4 +8,4 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return Object.assign({}, playlist, { [artistName]: songTitle})
 }
 
-  updatePlaylist(Slowdive, "Phil Ochs", "My Bloody Valentine")
+  updatePlaylist(playlist, "artist4", "song4")
