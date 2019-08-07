@@ -2,3 +2,8 @@ var playlist = {
   Slowdive: "song1",
   "My Bloody Valentine": "song2",
 }
+
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle
+  return playlist
+}
