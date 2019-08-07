@@ -9,3 +9,9 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 updatePlaylist(playlist, "Phil Ochs", "song4")
+
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.Slowdive
+
+  return playlist
+}
